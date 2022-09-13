@@ -1,0 +1,26 @@
+.Weather {
+  max-width: 500px;
+  min-width: 500px;
+  margin: 50px auto 50px auto;
+  background-image: linear-gradient(to right, #b4a28a 0%, #415a6e 100%);
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  height: 550px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Add to Forecast component when created */
+.Weather .forecast {
+  flex-wrap: wrap;
+  font-size: 12px;
+  padding: 60px 10px;
+  font-weight: bold;
+}
+
+/* ? */
+.Weather .icon {
+  position: relative;
+  /* top: -15px; */
+}

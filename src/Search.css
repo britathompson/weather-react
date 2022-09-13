@@ -1,0 +1,25 @@
+.Search header {
+  font-family: "Dawning of a New Day", cursive;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.Search form {
+  text-align: left;
+}
+
+.Search .search-bar {
+  width: 40%;
+}
+
+.Search .button,
+.current-button {
+  padding: 1px 6px;
+  color: grey;
+}
+
+.Search .current-button {
+  position: relative;
+  border: none;
+}

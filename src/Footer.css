@@ -1,0 +1,19 @@
+.Footer footer {
+  font-size: 12px;
+  color: white;
+  /* margin-top: px; */
+}
+
+.Footer .git-link {
+  color: rgb(252, 159, 175);
+}
+
+.Footer .git-link:hover {
+  color: red;
+}
+
+.Footer {
+  max-width: 500px;
+  min-width: 500px;
+  margin: auto;
+}
