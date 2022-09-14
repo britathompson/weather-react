@@ -8,8 +8,10 @@ import "./Footer.css";
 function App() {
   return (
     <div className="App">
-      <Weather />
-      <Footer />
+      <div className="cointainer">
+        <Weather />
+        <Footer />
+      </div>
     </div>
   );
 }
