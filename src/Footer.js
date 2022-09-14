@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="Footer">
       <footer>
         <a
-          href="https://github.com/britathompson/weather-app"
+          href="https://github.com/britathompson/weather-react"
           target="_blank"
           rel="noreferrer"
           className="git-link"
