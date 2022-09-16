@@ -23,3 +23,65 @@
   position: relative;
   border: none;
 }
+
+.Search h1 {
+  font-size: 26px;
+  margin: 30px auto 0 auto;
+  color: pink;
+}
+
+.Search .current-temp {
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.Search .units {
+  font-size: 17px;
+  position: relative;
+  top: -45px;
+}
+
+.Search .celsius-link:hover,
+.fahrenheit-link:hover {
+  color: blue;
+}
+
+.Search .temp-block .active {
+  color: black;
+}
+
+.Search .temp-block .active:hover {
+  cursor: default;
+}
+
+.Search .celsius-link,
+.fahrenheit-link {
+  color: white;
+  text-decoration: none;
+}
+
+.Search .forecast-icon {
+  width: 50%;
+  height: 50%;
+}
+
+.Search .last-updated {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Search .day-time {
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.Search .current-text {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.Search .current-text::first-letter {
+  text-transform: capitalize;
+}
