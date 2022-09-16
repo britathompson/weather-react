@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Search.css";
+import FormattedDate from "./FormattedDate";
 
 export default function Search(props) {
   const [weatherData, setWeatherData] = useState({ loaded: false });
@@ -15,7 +16,7 @@ export default function Search(props) {
       humidity: response.data.main.humidity,
       feelsLiks: response.data.main.feels_like,
       icon: "https://ssl.gstatic.com/onebox/weather/64/rain_light.png",
-      date: "Tuesday 10:00",
+      date: new Date(response.data.dt * 1000),
     });
   }
 
@@ -64,7 +65,7 @@ export default function Search(props) {
             <div className="info-block col-6">
               <p className="last-updated">
                 Last updated:{" "}
-                <span className="day-time">{weatherData.date}</span>
+                <span className="day-time"><FormattedDate date={weatherData.date} /></span>
               </p>
               <p className="current-text text-capitalize">{weatherData.description}</p>
               <img

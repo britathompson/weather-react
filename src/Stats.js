@@ -14,9 +14,9 @@ export default function Stats() {
   return (
     <div className="Stats">
       <div className="row">
-        <div className="col-4">Feels Like: {weatherData.feelsLike}°</div>
-        <div className="col-4">Humidity: {weatherData.humidity}%</div>
-        <div className="col-4">Wind: {weatherData.wind} km/h</div>
+        <div className="col-4">Feels Like: {9}°</div>
+        <div className="col-4">Humidity: {9}%</div>
+        <div className="col-4">Wind: {9} km/h</div>
       </div>
 
       <div className="forecast row" />
