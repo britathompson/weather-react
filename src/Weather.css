@@ -12,7 +12,7 @@
 }
 
 /* Add to Forecast component when created */
-.Weather .forecast {
+.forecast {
   flex-wrap: wrap;
   font-size: 12px;
   padding: 60px 10px;
@@ -20,7 +20,92 @@
 }
 
 /* ? */
-.Weather .icon {
+.icon {
   position: relative;
   /* top: -15px; */
+}
+
+header {
+  font-family: "Dawning of a New Day", cursive;
+  font-size: 24px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form {
+  text-align: left;
+}
+
+.search-bar {
+  width: 40%;
+}
+
+.button,
+.current-button {
+  padding: 1px 6px;
+  color: grey;
+}
+
+.current-button {
+  position: relative;
+  border: none;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 30px auto 0 auto;
+  color: pink;
+}
+
+.current-temp {
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 150%;
+}
+
+.units {
+  font-size: 17px;
+  position: relative;
+  top: -45px;
+}
+.celsius-link:hover,
+.fahrenheit-link:hover {
+  color: blue;
+}
+
+.temp-block .active {
+  color: black;
+}
+
+.temp-block .active:hover {
+  cursor: default;
+}
+.celsius-link,
+.fahrenheit-link {
+  color: white;
+  text-decoration: none;
+}
+
+.forecast-icon {
+  width: 50%;
+  height: 50%;
+}
+.last-updated {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.day-time {
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.current-text {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.current-text::first-letter {
+  text-transform: capitalize;
 }
