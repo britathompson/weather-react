@@ -5,12 +5,11 @@
   background-image: linear-gradient(to right, #b4a28a 0%, #415a6e 100%);
   border-radius: 5px;
   color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 550px;
   padding: 60px 20px;
   text-align: center;
 }
-
 
 .forecast {
   flex-wrap: wrap;
@@ -68,23 +67,23 @@ h1 {
   position: relative;
   top: -45px;
 }
-.celsius-link:hover,
+/* .celsius-link:hover,
 .fahrenheit-link:hover {
   color: blue;
-}
+}  */
 
-.temp-block .active {
+/* .temp-block .active {
   color: black;
-}
+} */
 
-.temp-block .active:hover {
+/* .temp-block .active:hover {
   cursor: default;
-}
-.celsius-link,
+} */
+/* .celsius-link,
 .fahrenheit-link {
   color: white;
   text-decoration: none;
-}
+}  */
 
 .forecast-icon {
   width: 50%;
