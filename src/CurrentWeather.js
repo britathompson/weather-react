@@ -26,7 +26,7 @@ export default function CurrentWeather(props) {
             {props.data.description}
           </p>
           <div className="icon float-left">
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={60} />
           </div>
           
         </div>
@@ -39,8 +39,6 @@ export default function CurrentWeather(props) {
           <div className="col-4">Humidity: {props.data.humidity}%</div>
           <div className="col-4">Wind: {Math.round(props.data.wind)} km/h</div>
         </div>
-
-        <div className="forecast row" />
       </div>
     </div>
   );

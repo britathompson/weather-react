@@ -11,13 +11,6 @@
   text-align: center;
 }
 
-.forecast {
-  flex-wrap: wrap;
-  font-size: 12px;
-  padding: 60px 10px;
-  font-weight: bold;
-}
-
 .icon {
   position: relative;
   top: 5px;
