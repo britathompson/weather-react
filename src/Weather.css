@@ -1,7 +1,7 @@
 .Weather {
   max-width: 500px;
   min-width: 500px;
-  margin: 50px auto 50px auto;
+  margin: 50px auto 10px auto;
   background-image: linear-gradient(to right, #b4a28a 0%, #415a6e 100%);
   border-radius: 5px;
   color: #fff;
@@ -59,6 +59,7 @@ h1 {
   font-size: 17px;
   position: relative;
   top: -45px;
+  left: 5px;
 }
 /* .celsius-link:hover,
 .fahrenheit-link:hover {

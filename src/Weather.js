@@ -10,6 +10,7 @@ export default function Search(props) {
   function handleResponse(response) {
     setWeatherData({
       loaded: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       city: response.data.name,
@@ -59,7 +60,7 @@ export default function Search(props) {
           <input type="button" value="📍" className="current-button shadow" />
         </form>
         <CurrentWeather data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
@@ -67,3 +68,4 @@ export default function Search(props) {
     return "Loading...";
   }
 }
+
