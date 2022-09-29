@@ -57,7 +57,7 @@ export default function Search(props) {
             type="submit"
             value="SEARCH"
           />
-          <input type="button" value="📍" className="current-button shadow" />
+          {/* <input type="button" value="📍" className="current-button shadow" /> */}
         </form>
         <CurrentWeather data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
